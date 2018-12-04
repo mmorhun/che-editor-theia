@@ -1,4 +1,4 @@
-version: 1.0.0
+version: 1.0.1
 type: Che Editor
 name: theia-ide
 id: org.eclipse.che.editor.theia
@@ -22,7 +22,7 @@ endpoints:
       type: ide-dev
 containers:
  - name: theia-ide
-   image: eclipse/che-theia:0.3.16-nightly
+   image: tnemov/che-theia:0.3.17
    env:
        - name: THEIA_PLUGINS
          value: local-dir:///plugins
