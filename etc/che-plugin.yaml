@@ -22,7 +22,7 @@ endpoints:
       type: ide-dev
 containers:
  - name: theia-ide
-   image: mm4eche/theia:3100
+   image: abazko/che-theia:mm
    env:
        - name: THEIA_PLUGINS
          value: local-dir:///plugins
