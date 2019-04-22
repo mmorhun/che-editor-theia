@@ -33,6 +33,8 @@ containers:
          name: plugins
        - mountPath: "/projects"
          name: projects
+       - mountPath: "/home/theia/.theia"
+         name: theia-data
    ports:
        - exposedPort: 3100
        - exposedPort: 3130
